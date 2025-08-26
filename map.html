@@ -1,0 +1,2202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4048f66eca6f3fe19d2e1bcdd9cc00e8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4048f66eca6f3fe19d2e1bcdd9cc00e8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4048f66eca6f3fe19d2e1bcdd9cc00e8 = L.map(
+                "map_4048f66eca6f3fe19d2e1bcdd9cc00e8",
+                {
+                    center: [-33.024565894230584, -71.55182778531538],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1c9240c76980d3ad7b6ae7672a202346 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1c9240c76980d3ad7b6ae7672a202346.addTo(map_4048f66eca6f3fe19d2e1bcdd9cc00e8);
+        
+    
+            var marker_cluster_0212b914aa7417ab54eb82b738dadf3d = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 19,
+}
+            );
+        
+    
+            var marker_cd5e8bce34987f18f3a4dfbde9546cd6 = L.marker(
+                [-33.0335425, -71.58251539999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_300ca99b0b4d84ccb9d17d2a0b13cc53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a2fda3be1502d0d0efd4d9bd3c4a7be = $(`<div id="html_4a2fda3be1502d0d0efd4d9bd3c4a7be" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Esperanza</div>`)[0];
+                popup_300ca99b0b4d84ccb9d17d2a0b13cc53.setContent(html_4a2fda3be1502d0d0efd4d9bd3c4a7be);
+            
+        
+
+        marker_cd5e8bce34987f18f3a4dfbde9546cd6.bindPopup(popup_300ca99b0b4d84ccb9d17d2a0b13cc53)
+        ;
+
+        
+    
+    
+            var marker_62854bc81239cfa30d0a891e3613d7a6 = L.marker(
+                [-33.0335425, -71.58251539999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_6bd1603de8a0d4f4f8f935f1015060c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87b5138d8c452ad0cab0ba76f2a20d21 = $(`<div id="html_87b5138d8c452ad0cab0ba76f2a20d21" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Esperanza</div>`)[0];
+                popup_6bd1603de8a0d4f4f8f935f1015060c2.setContent(html_87b5138d8c452ad0cab0ba76f2a20d21);
+            
+        
+
+        marker_62854bc81239cfa30d0a891e3613d7a6.bindPopup(popup_6bd1603de8a0d4f4f8f935f1015060c2)
+        ;
+
+        
+    
+    
+            var marker_9ae675926f5402fb1e2fa9ded042672f = L.marker(
+                [-33.0392874, -71.6008763],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_1735bf6975687502faf90b87345a5e6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b139803d96e5da9ac9cac97adf60b7f0 = $(`<div id="html_b139803d96e5da9ac9cac97adf60b7f0" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Barón</div>`)[0];
+                popup_1735bf6975687502faf90b87345a5e6f.setContent(html_b139803d96e5da9ac9cac97adf60b7f0);
+            
+        
+
+        marker_9ae675926f5402fb1e2fa9ded042672f.bindPopup(popup_1735bf6975687502faf90b87345a5e6f)
+        ;
+
+        
+    
+    
+            var marker_d88aaf23dc2be7444ff78159bc0df3e0 = L.marker(
+                [-33.0392874, -71.6008763],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_afec3fb39c4dc5f0eedd2b17dd5c46f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_172432a71af0dd4036574da16c45c20b = $(`<div id="html_172432a71af0dd4036574da16c45c20b" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Barón</div>`)[0];
+                popup_afec3fb39c4dc5f0eedd2b17dd5c46f0.setContent(html_172432a71af0dd4036574da16c45c20b);
+            
+        
+
+        marker_d88aaf23dc2be7444ff78159bc0df3e0.bindPopup(popup_afec3fb39c4dc5f0eedd2b17dd5c46f0)
+        ;
+
+        
+    
+    
+            var marker_cd8cf4ee584de711c13fa8afffdc6d26 = L.marker(
+                [-33.1128394, -71.56621849999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_bf800dca2dd16d4de5b6e9078edaded9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d652279ad248cea6fa5513a0534e925 = $(`<div id="html_3d652279ad248cea6fa5513a0534e925" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Placilla</div>`)[0];
+                popup_bf800dca2dd16d4de5b6e9078edaded9.setContent(html_3d652279ad248cea6fa5513a0534e925);
+            
+        
+
+        marker_cd8cf4ee584de711c13fa8afffdc6d26.bindPopup(popup_bf800dca2dd16d4de5b6e9078edaded9)
+        ;
+
+        
+    
+    
+            var marker_cd02e3d10f443ae04adb904fefa9b582 = L.marker(
+                [-33.1128394, -71.56621849999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_68ed6b485c2d9f4487e8090b2631defb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6fb7c355715f10af351e92767c39993 = $(`<div id="html_b6fb7c355715f10af351e92767c39993" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Placilla</div>`)[0];
+                popup_68ed6b485c2d9f4487e8090b2631defb.setContent(html_b6fb7c355715f10af351e92767c39993);
+            
+        
+
+        marker_cd02e3d10f443ae04adb904fefa9b582.bindPopup(popup_68ed6b485c2d9f4487e8090b2631defb)
+        ;
+
+        
+    
+    
+            var marker_78ce9295adc36f86a47f96aafaabb718 = L.marker(
+                [-33.1128394, -71.56621849999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_a520e369f554a0a17b0d07674c3bffff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ebd7781cdb8b5b646e9d9fa28256b72 = $(`<div id="html_4ebd7781cdb8b5b646e9d9fa28256b72" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Placilla</div>`)[0];
+                popup_a520e369f554a0a17b0d07674c3bffff.setContent(html_4ebd7781cdb8b5b646e9d9fa28256b72);
+            
+        
+
+        marker_78ce9295adc36f86a47f96aafaabb718.bindPopup(popup_a520e369f554a0a17b0d07674c3bffff)
+        ;
+
+        
+    
+    
+            var marker_a4b9b07f5af6a2fd98aaa544942b7689 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_0a6767357607c06248c60a8d2074c7b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e2927ca6b09a874fd4b49b730af2cc7 = $(`<div id="html_9e2927ca6b09a874fd4b49b730af2cc7" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Jean y Marie Thierry</div>`)[0];
+                popup_0a6767357607c06248c60a8d2074c7b1.setContent(html_9e2927ca6b09a874fd4b49b730af2cc7);
+            
+        
+
+        marker_a4b9b07f5af6a2fd98aaa544942b7689.bindPopup(popup_0a6767357607c06248c60a8d2074c7b1)
+        ;
+
+        
+    
+    
+            var marker_d31de88a94d4b618ef06a78e9097214d = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_aaf44da36b56dfef5096023e0ab26cf9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0d481d6b2560c63d6aff0f47a5c3aa1 = $(`<div id="html_a0d481d6b2560c63d6aff0f47a5c3aa1" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Marcelo Mena</div>`)[0];
+                popup_aaf44da36b56dfef5096023e0ab26cf9.setContent(html_a0d481d6b2560c63d6aff0f47a5c3aa1);
+            
+        
+
+        marker_d31de88a94d4b618ef06a78e9097214d.bindPopup(popup_aaf44da36b56dfef5096023e0ab26cf9)
+        ;
+
+        
+    
+    
+            var marker_a71d4ce797f6b641466fe69f5761d8da = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_af87159c173f53d7a8a8162c93827185 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8eae1c16c8a543ef1d09e0024ea7030 = $(`<div id="html_a8eae1c16c8a543ef1d09e0024ea7030" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Marcelo Mena</div>`)[0];
+                popup_af87159c173f53d7a8a8162c93827185.setContent(html_a8eae1c16c8a543ef1d09e0024ea7030);
+            
+        
+
+        marker_a71d4ce797f6b641466fe69f5761d8da.bindPopup(popup_af87159c173f53d7a8a8162c93827185)
+        ;
+
+        
+    
+    
+            var marker_b35606a4d66b829c0f3c342bb59f961a = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_2f5d34a941d8239dd992a88d287d6c15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f937a7bcc13509c4308467359700eb0 = $(`<div id="html_8f937a7bcc13509c4308467359700eb0" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Marcelo Mena</div>`)[0];
+                popup_2f5d34a941d8239dd992a88d287d6c15.setContent(html_8f937a7bcc13509c4308467359700eb0);
+            
+        
+
+        marker_b35606a4d66b829c0f3c342bb59f961a.bindPopup(popup_2f5d34a941d8239dd992a88d287d6c15)
+        ;
+
+        
+    
+    
+            var marker_cf6a3c155bce17582cb5059f2c52b6c2 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_bebba6f08716855d1e3521e450480398 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f230400d85f32c3265a6ff65f9fd83a7 = $(`<div id="html_f230400d85f32c3265a6ff65f9fd83a7" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Marcelo Mena</div>`)[0];
+                popup_bebba6f08716855d1e3521e450480398.setContent(html_f230400d85f32c3265a6ff65f9fd83a7);
+            
+        
+
+        marker_cf6a3c155bce17582cb5059f2c52b6c2.bindPopup(popup_bebba6f08716855d1e3521e450480398)
+        ;
+
+        
+    
+    
+            var marker_64792958bade95ab4ccf4bb1a9db5fc5 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_c4a76f9dca8afea519917625f842b039 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc1d86b397e186c4d90947fa72154514 = $(`<div id="html_dc1d86b397e186c4d90947fa72154514" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Marcelo Mena</div>`)[0];
+                popup_c4a76f9dca8afea519917625f842b039.setContent(html_dc1d86b397e186c4d90947fa72154514);
+            
+        
+
+        marker_64792958bade95ab4ccf4bb1a9db5fc5.bindPopup(popup_c4a76f9dca8afea519917625f842b039)
+        ;
+
+        
+    
+    
+            var marker_fbdb0fe934fa9d0f0bbfcb16ceef7547 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_0172f6ae005a1635b5b46f3995d65ab9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_306e56a58770e276c090c945bdd27e91 = $(`<div id="html_306e56a58770e276c090c945bdd27e91" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Marcelo Mena</div>`)[0];
+                popup_0172f6ae005a1635b5b46f3995d65ab9.setContent(html_306e56a58770e276c090c945bdd27e91);
+            
+        
+
+        marker_fbdb0fe934fa9d0f0bbfcb16ceef7547.bindPopup(popup_0172f6ae005a1635b5b46f3995d65ab9)
+        ;
+
+        
+    
+    
+            var marker_ac96fcf6f8f6dd3268b6442f00dbd2ee = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_caf1e881255b61017e662ba1918daed8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed916986a2b65badff46c43f3e7a2589 = $(`<div id="html_ed916986a2b65badff46c43f3e7a2589" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Marcelo Mena</div>`)[0];
+                popup_caf1e881255b61017e662ba1918daed8.setContent(html_ed916986a2b65badff46c43f3e7a2589);
+            
+        
+
+        marker_ac96fcf6f8f6dd3268b6442f00dbd2ee.bindPopup(popup_caf1e881255b61017e662ba1918daed8)
+        ;
+
+        
+    
+    
+            var marker_053c37648f685c9cd122725f2674b46e = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_d1bcfb12657746be5dc6c8248a736b54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8cda1a9e8d797982317039acc8318d3 = $(`<div id="html_f8cda1a9e8d797982317039acc8318d3" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Marcelo Mena</div>`)[0];
+                popup_d1bcfb12657746be5dc6c8248a736b54.setContent(html_f8cda1a9e8d797982317039acc8318d3);
+            
+        
+
+        marker_053c37648f685c9cd122725f2674b46e.bindPopup(popup_d1bcfb12657746be5dc6c8248a736b54)
+        ;
+
+        
+    
+    
+            var marker_d95f58980b4d8f09d55adc791a7ec3b7 = L.marker(
+                [-33.0394722, -71.62971619999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_cb3414c6e5b406d4ca7e609f9bf5db0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b4e7de48145a2207dce4a9313d72b1a = $(`<div id="html_5b4e7de48145a2207dce4a9313d72b1a" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Plaza Justicia</div>`)[0];
+                popup_cb3414c6e5b406d4ca7e609f9bf5db0d.setContent(html_5b4e7de48145a2207dce4a9313d72b1a);
+            
+        
+
+        marker_d95f58980b4d8f09d55adc791a7ec3b7.bindPopup(popup_cb3414c6e5b406d4ca7e609f9bf5db0d)
+        ;
+
+        
+    
+    
+            var marker_400fd7ab061330d0d729359a06c2fe19 = L.marker(
+                [-33.0394722, -71.62971619999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_10e57abd144c8b36c2f57ee9c7cf11c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fbd28a797b7eebd327cd526ceac0316 = $(`<div id="html_6fbd28a797b7eebd327cd526ceac0316" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Plaza Justicia</div>`)[0];
+                popup_10e57abd144c8b36c2f57ee9c7cf11c2.setContent(html_6fbd28a797b7eebd327cd526ceac0316);
+            
+        
+
+        marker_400fd7ab061330d0d729359a06c2fe19.bindPopup(popup_10e57abd144c8b36c2f57ee9c7cf11c2)
+        ;
+
+        
+    
+    
+            var marker_8d23a326478091d21d17298cfffa9b74 = L.marker(
+                [-33.0394722, -71.62971619999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_a011608cff5a9a4d56eb0bdd994d6aba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55f675b34ae276625f68a9cf82cda4cd = $(`<div id="html_55f675b34ae276625f68a9cf82cda4cd" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Plaza Justicia</div>`)[0];
+                popup_a011608cff5a9a4d56eb0bdd994d6aba.setContent(html_55f675b34ae276625f68a9cf82cda4cd);
+            
+        
+
+        marker_8d23a326478091d21d17298cfffa9b74.bindPopup(popup_a011608cff5a9a4d56eb0bdd994d6aba)
+        ;
+
+        
+    
+    
+            var marker_3d7c165e964304a93e8b424d7d1385fa = L.marker(
+                [-33.0394722, -71.62971619999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_3a776f68a1d5eda1973326d69df4b320 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7432d858ac78c6253048cbb24f07b798 = $(`<div id="html_7432d858ac78c6253048cbb24f07b798" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Plaza Justicia</div>`)[0];
+                popup_3a776f68a1d5eda1973326d69df4b320.setContent(html_7432d858ac78c6253048cbb24f07b798);
+            
+        
+
+        marker_3d7c165e964304a93e8b424d7d1385fa.bindPopup(popup_3a776f68a1d5eda1973326d69df4b320)
+        ;
+
+        
+    
+    
+            var marker_92a50feea818ad547cfae5313b85334f = L.marker(
+                [-33.0418594, -71.6457235],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_d5ed5cfd43dd99c3e77de2a06d1239af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1f2160d7b85d594c37cd2563a433d96 = $(`<div id="html_e1f2160d7b85d594c37cd2563a433d96" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Quebrada Verde</div>`)[0];
+                popup_d5ed5cfd43dd99c3e77de2a06d1239af.setContent(html_e1f2160d7b85d594c37cd2563a433d96);
+            
+        
+
+        marker_92a50feea818ad547cfae5313b85334f.bindPopup(popup_d5ed5cfd43dd99c3e77de2a06d1239af)
+        ;
+
+        
+    
+    
+            var marker_b2fd9f119f15e0e8b8b5d09cca726e59 = L.marker(
+                [-33.0418594, -71.6457235],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_206d896ab8f14ff6758db351a9fa751a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7030f8f710222870fdf4e96cce73c4ff = $(`<div id="html_7030f8f710222870fdf4e96cce73c4ff" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Quebrada Verde</div>`)[0];
+                popup_206d896ab8f14ff6758db351a9fa751a.setContent(html_7030f8f710222870fdf4e96cce73c4ff);
+            
+        
+
+        marker_b2fd9f119f15e0e8b8b5d09cca726e59.bindPopup(popup_206d896ab8f14ff6758db351a9fa751a)
+        ;
+
+        
+    
+    
+            var marker_a6cef43efc747fd5829f52e450ba364d = L.marker(
+                [-33.0418594, -71.6457235],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_856df7333b3649c7bdc421153802a58a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27bc3d4d12eb8d1075fbb4a4acc926b9 = $(`<div id="html_27bc3d4d12eb8d1075fbb4a4acc926b9" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Quebrada Verde</div>`)[0];
+                popup_856df7333b3649c7bdc421153802a58a.setContent(html_27bc3d4d12eb8d1075fbb4a4acc926b9);
+            
+        
+
+        marker_a6cef43efc747fd5829f52e450ba364d.bindPopup(popup_856df7333b3649c7bdc421153802a58a)
+        ;
+
+        
+    
+    
+            var marker_6349fb12cebd6d8b8977e663ea448a23 = L.marker(
+                [-33.0418594, -71.6457235],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_1611d1eeab406407b65d5fd017cf1ffe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b298a27ad1fc507500f3dad71b93afae = $(`<div id="html_b298a27ad1fc507500f3dad71b93afae" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Quebrada Verde</div>`)[0];
+                popup_1611d1eeab406407b65d5fd017cf1ffe.setContent(html_b298a27ad1fc507500f3dad71b93afae);
+            
+        
+
+        marker_6349fb12cebd6d8b8977e663ea448a23.bindPopup(popup_1611d1eeab406407b65d5fd017cf1ffe)
+        ;
+
+        
+    
+    
+            var marker_9486ccc056bad13c2458e7792e4561cb = L.marker(
+                [-33.0418594, -71.6457235],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_c8e6045c17199827d41a24433e3b5384 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4dd08016ed83ff291aae2d1efcb733e = $(`<div id="html_f4dd08016ed83ff291aae2d1efcb733e" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Quebrada Verde</div>`)[0];
+                popup_c8e6045c17199827d41a24433e3b5384.setContent(html_f4dd08016ed83ff291aae2d1efcb733e);
+            
+        
+
+        marker_9486ccc056bad13c2458e7792e4561cb.bindPopup(popup_c8e6045c17199827d41a24433e3b5384)
+        ;
+
+        
+    
+    
+            var marker_02c0ab7f0c28f7e20026759d1349182b = L.marker(
+                [-33.0418594, -71.6457235],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_618adab90d4b49fb796e58c2aeb9ab59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4857021e4700f8cda5c451c28cc987e0 = $(`<div id="html_4857021e4700f8cda5c451c28cc987e0" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Quebrada Verde</div>`)[0];
+                popup_618adab90d4b49fb796e58c2aeb9ab59.setContent(html_4857021e4700f8cda5c451c28cc987e0);
+            
+        
+
+        marker_02c0ab7f0c28f7e20026759d1349182b.bindPopup(popup_618adab90d4b49fb796e58c2aeb9ab59)
+        ;
+
+        
+    
+    
+            var marker_39716aeeb25b12b1f71c87c932dd5457 = L.marker(
+                [-33.0577055, -71.5618267],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_0f54b80c81df08c7e5371078bb0b1e6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e97777c89abff82105b93de543d11102 = $(`<div id="html_e97777c89abff82105b93de543d11102" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Padre Damián Molokai</div>`)[0];
+                popup_0f54b80c81df08c7e5371078bb0b1e6a.setContent(html_e97777c89abff82105b93de543d11102);
+            
+        
+
+        marker_39716aeeb25b12b1f71c87c932dd5457.bindPopup(popup_0f54b80c81df08c7e5371078bb0b1e6a)
+        ;
+
+        
+    
+    
+            var marker_b5dfd197aa75de8cf63d74440aefe7c7 = L.marker(
+                [-33.0577055, -71.5618267],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_bbdea2da74dbfa384ac5305bdfc79e29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73a4c50c59a51cc10658750120e5a2c6 = $(`<div id="html_73a4c50c59a51cc10658750120e5a2c6" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Padre Damián Molokai</div>`)[0];
+                popup_bbdea2da74dbfa384ac5305bdfc79e29.setContent(html_73a4c50c59a51cc10658750120e5a2c6);
+            
+        
+
+        marker_b5dfd197aa75de8cf63d74440aefe7c7.bindPopup(popup_bbdea2da74dbfa384ac5305bdfc79e29)
+        ;
+
+        
+    
+    
+            var marker_7885fcbf34fb65f7c8cc8af41585c7aa = L.marker(
+                [-33.0577055, -71.5618267],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_b18fd2dad86dded9c95814876024281b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97f5127e12ffefff6cfaa7f370c61315 = $(`<div id="html_97f5127e12ffefff6cfaa7f370c61315" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Padre Damián Molokai</div>`)[0];
+                popup_b18fd2dad86dded9c95814876024281b.setContent(html_97f5127e12ffefff6cfaa7f370c61315);
+            
+        
+
+        marker_7885fcbf34fb65f7c8cc8af41585c7aa.bindPopup(popup_b18fd2dad86dded9c95814876024281b)
+        ;
+
+        
+    
+    
+            var marker_b7f558cde2dded8582ba66a42699da42 = L.marker(
+                [-33.3144575, -71.4155514],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_1454f4727113c1d916a4e08bd8860f46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_723a3bbae8f000b088862518d3ef8cf0 = $(`<div id="html_723a3bbae8f000b088862518d3ef8cf0" style="width: 100.0%; height: 100.0%;">Hospital San José (Casablanca)</div>`)[0];
+                popup_1454f4727113c1d916a4e08bd8860f46.setContent(html_723a3bbae8f000b088862518d3ef8cf0);
+            
+        
+
+        marker_b7f558cde2dded8582ba66a42699da42.bindPopup(popup_1454f4727113c1d916a4e08bd8860f46)
+        ;
+
+        
+    
+    
+            var marker_e28f497ea232ad51c694b2abf8e410e5 = L.marker(
+                [-33.3144575, -71.4155514],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_bb3401f8be6d4de6aeb7c1f37cbc157d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87c63b543afd49ec3b9070856ab724ee = $(`<div id="html_87c63b543afd49ec3b9070856ab724ee" style="width: 100.0%; height: 100.0%;">Hospital San José (Casablanca)</div>`)[0];
+                popup_bb3401f8be6d4de6aeb7c1f37cbc157d.setContent(html_87c63b543afd49ec3b9070856ab724ee);
+            
+        
+
+        marker_e28f497ea232ad51c694b2abf8e410e5.bindPopup(popup_bb3401f8be6d4de6aeb7c1f37cbc157d)
+        ;
+
+        
+    
+    
+            var marker_de2feb1da9b6c8952963b2e8c1756cb4 = L.marker(
+                [-33.3144575, -71.4155514],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_98cecbd7e6e53c24d158a4fd71c53815 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_588925dc65de805f05434bd2c8240ede = $(`<div id="html_588925dc65de805f05434bd2c8240ede" style="width: 100.0%; height: 100.0%;">Hospital San José (Casablanca)</div>`)[0];
+                popup_98cecbd7e6e53c24d158a4fd71c53815.setContent(html_588925dc65de805f05434bd2c8240ede);
+            
+        
+
+        marker_de2feb1da9b6c8952963b2e8c1756cb4.bindPopup(popup_98cecbd7e6e53c24d158a4fd71c53815)
+        ;
+
+        
+    
+    
+            var marker_8e5db5c14aebc03d630a2e29adefa046 = L.marker(
+                [-33.3144575, -71.4155514],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_e1e8d7f107c7067b37dd04007d414fce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e557b1712106a963947c754030287c3 = $(`<div id="html_2e557b1712106a963947c754030287c3" style="width: 100.0%; height: 100.0%;">Hospital San José (Casablanca)</div>`)[0];
+                popup_e1e8d7f107c7067b37dd04007d414fce.setContent(html_2e557b1712106a963947c754030287c3);
+            
+        
+
+        marker_8e5db5c14aebc03d630a2e29adefa046.bindPopup(popup_e1e8d7f107c7067b37dd04007d414fce)
+        ;
+
+        
+    
+    
+            var marker_bb4a44ef0a290b735f146d11d99c3494 = L.marker(
+                [-33.3144575, -71.4155514],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_058731bf0de27d7031624f119c89b759 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_439408c2fbe173efa22c87fe8d35fe25 = $(`<div id="html_439408c2fbe173efa22c87fe8d35fe25" style="width: 100.0%; height: 100.0%;">Hospital San José (Casablanca)</div>`)[0];
+                popup_058731bf0de27d7031624f119c89b759.setContent(html_439408c2fbe173efa22c87fe8d35fe25);
+            
+        
+
+        marker_bb4a44ef0a290b735f146d11d99c3494.bindPopup(popup_058731bf0de27d7031624f119c89b759)
+        ;
+
+        
+    
+    
+            var marker_abf1485608bb00c8676320c38a553bc9 = L.marker(
+                [-33.1868384, -71.6854225],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_5d3d2f5df79c8c8915f8bab969860f1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efbc5fb2aab3917989640f0613794cf2 = $(`<div id="html_efbc5fb2aab3917989640f0613794cf2" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Quintay</div>`)[0];
+                popup_5d3d2f5df79c8c8915f8bab969860f1f.setContent(html_efbc5fb2aab3917989640f0613794cf2);
+            
+        
+
+        marker_abf1485608bb00c8676320c38a553bc9.bindPopup(popup_5d3d2f5df79c8c8915f8bab969860f1f)
+        ;
+
+        
+    
+    
+            var marker_0e7e306ffd29a51c2088b977d066af28 = L.marker(
+                [-33.1868384, -71.6854225],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_bf73b63f2af0535d534a2ace8df4c892 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffd65ad2b9738ea4cf13c371e2fc62c0 = $(`<div id="html_ffd65ad2b9738ea4cf13c371e2fc62c0" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Quintay</div>`)[0];
+                popup_bf73b63f2af0535d534a2ace8df4c892.setContent(html_ffd65ad2b9738ea4cf13c371e2fc62c0);
+            
+        
+
+        marker_0e7e306ffd29a51c2088b977d066af28.bindPopup(popup_bf73b63f2af0535d534a2ace8df4c892)
+        ;
+
+        
+    
+    
+            var marker_b6c90ea5c94aeb8dc89370186e2dacb0 = L.marker(
+                [-33.2870635, -71.5065379],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_cbc32c1a170afad169dddd8d35545595 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_806ba196c3c2b9ef8043a29d7f457b57 = $(`<div id="html_806ba196c3c2b9ef8043a29d7f457b57" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Dichas</div>`)[0];
+                popup_cbc32c1a170afad169dddd8d35545595.setContent(html_806ba196c3c2b9ef8043a29d7f457b57);
+            
+        
+
+        marker_b6c90ea5c94aeb8dc89370186e2dacb0.bindPopup(popup_cbc32c1a170afad169dddd8d35545595)
+        ;
+
+        
+    
+    
+            var marker_e156268fee0364476f757ca963ef9891 = L.marker(
+                [-33.535115, -70.2644486],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_159a367cdcd82d95a08fa3e7a1832e9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_794b5bff61b396405ad8c235c39b8c15 = $(`<div id="html_794b5bff61b396405ad8c235c39b8c15" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Los Maitenes</div>`)[0];
+                popup_159a367cdcd82d95a08fa3e7a1832e9b.setContent(html_794b5bff61b396405ad8c235c39b8c15);
+            
+        
+
+        marker_e156268fee0364476f757ca963ef9891.bindPopup(popup_159a367cdcd82d95a08fa3e7a1832e9b)
+        ;
+
+        
+    
+    
+            var marker_a3f6ba46025aa933cf7bc4f68c064dda = L.marker(
+                [-33.535115, -70.2644486],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_6baf4932eab80bdba7c13ffbf7526eb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cab116b8b6d1931f93826c572a3d0fb3 = $(`<div id="html_cab116b8b6d1931f93826c572a3d0fb3" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Los Maitenes</div>`)[0];
+                popup_6baf4932eab80bdba7c13ffbf7526eb8.setContent(html_cab116b8b6d1931f93826c572a3d0fb3);
+            
+        
+
+        marker_a3f6ba46025aa933cf7bc4f68c064dda.bindPopup(popup_6baf4932eab80bdba7c13ffbf7526eb8)
+        ;
+
+        
+    
+    
+            var marker_6487bcc66373ec91f2a5b9b7fa32babc = L.marker(
+                [-33.535115, -70.2644486],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_bf5fa25ec35f0a70ac3360a57082304e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe675a113ca3eda8a8cff7247b224260 = $(`<div id="html_fe675a113ca3eda8a8cff7247b224260" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Los Maitenes</div>`)[0];
+                popup_bf5fa25ec35f0a70ac3360a57082304e.setContent(html_fe675a113ca3eda8a8cff7247b224260);
+            
+        
+
+        marker_6487bcc66373ec91f2a5b9b7fa32babc.bindPopup(popup_bf5fa25ec35f0a70ac3360a57082304e)
+        ;
+
+        
+    
+    
+            var marker_566e28c55e1cbe90d89b0c9824736f58 = L.marker(
+                [-33.6080687, -70.2885811],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_d48e6ebeddaab637c509a2f5ecb4553c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_625fb47eb7f8981b2e5ef2c830e59cce = $(`<div id="html_625fb47eb7f8981b2e5ef2c830e59cce" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Lagunillas</div>`)[0];
+                popup_d48e6ebeddaab637c509a2f5ecb4553c.setContent(html_625fb47eb7f8981b2e5ef2c830e59cce);
+            
+        
+
+        marker_566e28c55e1cbe90d89b0c9824736f58.bindPopup(popup_d48e6ebeddaab637c509a2f5ecb4553c)
+        ;
+
+        
+    
+    
+            var marker_fd511325c1dd7e0ae7f020d87caec330 = L.marker(
+                [-33.6080687, -70.2885811],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_779bef3d1d7ec11e7f0b53633b00cf73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3f279fda1dfd9fb207bf6beea8bdaa0 = $(`<div id="html_c3f279fda1dfd9fb207bf6beea8bdaa0" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Lagunillas</div>`)[0];
+                popup_779bef3d1d7ec11e7f0b53633b00cf73.setContent(html_c3f279fda1dfd9fb207bf6beea8bdaa0);
+            
+        
+
+        marker_fd511325c1dd7e0ae7f020d87caec330.bindPopup(popup_779bef3d1d7ec11e7f0b53633b00cf73)
+        ;
+
+        
+    
+    
+            var marker_4cf11eb98cc2c3133d79c316005e6bb2 = L.marker(
+                [-33.6613889, -78.9277778],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_313f8d4a001de131f88e1fcd82d7756d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_537fbf106a35a3a58780a29f541d8926 = $(`<div id="html_537fbf106a35a3a58780a29f541d8926" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Juan Fernández</div>`)[0];
+                popup_313f8d4a001de131f88e1fcd82d7756d.setContent(html_537fbf106a35a3a58780a29f541d8926);
+            
+        
+
+        marker_4cf11eb98cc2c3133d79c316005e6bb2.bindPopup(popup_313f8d4a001de131f88e1fcd82d7756d)
+        ;
+
+        
+    
+    
+            var marker_aae29015a3a4ed86e5d68212873e2b79 = L.marker(
+                [-33.6613889, -78.9277778],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_eaefce445a573e432748291206b39979 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac1001b33da90c62295597a2d14e5d16 = $(`<div id="html_ac1001b33da90c62295597a2d14e5d16" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Juan Fernández</div>`)[0];
+                popup_eaefce445a573e432748291206b39979.setContent(html_ac1001b33da90c62295597a2d14e5d16);
+            
+        
+
+        marker_aae29015a3a4ed86e5d68212873e2b79.bindPopup(popup_eaefce445a573e432748291206b39979)
+        ;
+
+        
+    
+    
+            var marker_d5d59a47800ea00431ad7b6ae788af69 = L.marker(
+                [-33.6613889, -78.9277778],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_01fb2a50cfb805e0ff92f8c69e260fe2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c12ff77915e6d4c2d21462327e49f30b = $(`<div id="html_c12ff77915e6d4c2d21462327e49f30b" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Juan Fernández</div>`)[0];
+                popup_01fb2a50cfb805e0ff92f8c69e260fe2.setContent(html_c12ff77915e6d4c2d21462327e49f30b);
+            
+        
+
+        marker_d5d59a47800ea00431ad7b6ae788af69.bindPopup(popup_01fb2a50cfb805e0ff92f8c69e260fe2)
+        ;
+
+        
+    
+    
+            var marker_e60d8ef68636672159153a57fe21ecf3 = L.marker(
+                [-33.5895585, -71.6101185],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_1a5bf186c5bdf9a39c1e0a0a764de652 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_612312438b363864cfc0a613f82ac183 = $(`<div id="html_612312438b363864cfc0a613f82ac183" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar San Antonio</div>`)[0];
+                popup_1a5bf186c5bdf9a39c1e0a0a764de652.setContent(html_612312438b363864cfc0a613f82ac183);
+            
+        
+
+        marker_e60d8ef68636672159153a57fe21ecf3.bindPopup(popup_1a5bf186c5bdf9a39c1e0a0a764de652)
+        ;
+
+        
+    
+    
+            var marker_1bcebbf70746d2f45693ca6765a8cc55 = L.marker(
+                [-33.5895585, -71.6101185],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_f93297fc3ae3c18293c75de73dae672f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b742c0957a9869875918c1546b404c4d = $(`<div id="html_b742c0957a9869875918c1546b404c4d" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar San Antonio</div>`)[0];
+                popup_f93297fc3ae3c18293c75de73dae672f.setContent(html_b742c0957a9869875918c1546b404c4d);
+            
+        
+
+        marker_1bcebbf70746d2f45693ca6765a8cc55.bindPopup(popup_f93297fc3ae3c18293c75de73dae672f)
+        ;
+
+        
+    
+    
+            var marker_655298fa12ef65e8177678c31bd5d21c = L.marker(
+                [-33.5895585, -71.6101185],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_c6103f7388b09233525ea0b0fb8edc22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d51b6507458e13ad29c803865632f3a5 = $(`<div id="html_d51b6507458e13ad29c803865632f3a5" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar San Antonio</div>`)[0];
+                popup_c6103f7388b09233525ea0b0fb8edc22.setContent(html_d51b6507458e13ad29c803865632f3a5);
+            
+        
+
+        marker_655298fa12ef65e8177678c31bd5d21c.bindPopup(popup_c6103f7388b09233525ea0b0fb8edc22)
+        ;
+
+        
+    
+    
+            var marker_b5d03eeea289d3e820ca128b764be6ec = L.marker(
+                [-33.5895585, -71.6101185],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_a4f617994449f6713e4f8a92cea545a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcf0e624a032a719626433e1fe3ad2ec = $(`<div id="html_dcf0e624a032a719626433e1fe3ad2ec" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar San Antonio</div>`)[0];
+                popup_a4f617994449f6713e4f8a92cea545a4.setContent(html_dcf0e624a032a719626433e1fe3ad2ec);
+            
+        
+
+        marker_b5d03eeea289d3e820ca128b764be6ec.bindPopup(popup_a4f617994449f6713e4f8a92cea545a4)
+        ;
+
+        
+    
+    
+            var marker_ef498acad66594c309299d91b70e6691 = L.marker(
+                [-33.5895585, -71.6101185],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_69f22852355dde72408153fcd6948372 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54d718e3992bb92c89848b8b8969801c = $(`<div id="html_54d718e3992bb92c89848b8b8969801c" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar San Antonio</div>`)[0];
+                popup_69f22852355dde72408153fcd6948372.setContent(html_54d718e3992bb92c89848b8b8969801c);
+            
+        
+
+        marker_ef498acad66594c309299d91b70e6691.bindPopup(popup_69f22852355dde72408153fcd6948372)
+        ;
+
+        
+    
+    
+            var marker_adcc43a801618f07b44407ebbc72ddf4 = L.marker(
+                [-33.61341760000001, -71.6120341],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_c2f0cf4fadb0b03b08a46a4421cab3eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f909dfc61c749c77b0fc7592e3c161bc = $(`<div id="html_f909dfc61c749c77b0fc7592e3c161bc" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Néstor Fernández Thomas</div>`)[0];
+                popup_c2f0cf4fadb0b03b08a46a4421cab3eb.setContent(html_f909dfc61c749c77b0fc7592e3c161bc);
+            
+        
+
+        marker_adcc43a801618f07b44407ebbc72ddf4.bindPopup(popup_c2f0cf4fadb0b03b08a46a4421cab3eb)
+        ;
+
+        
+    
+    
+            var marker_a99c5701f1a6a5bf03eee036edbbc247 = L.marker(
+                [-33.61341760000001, -71.6120341],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_1d3527f73991336444f1c9d7a283a857 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ed70524de0759865d8eeacf3950eb0b = $(`<div id="html_2ed70524de0759865d8eeacf3950eb0b" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Néstor Fernández Thomas</div>`)[0];
+                popup_1d3527f73991336444f1c9d7a283a857.setContent(html_2ed70524de0759865d8eeacf3950eb0b);
+            
+        
+
+        marker_a99c5701f1a6a5bf03eee036edbbc247.bindPopup(popup_1d3527f73991336444f1c9d7a283a857)
+        ;
+
+        
+    
+    
+            var marker_4b97cf9c01f664fc6de5e95abe5091c1 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_079668865366750f130f8de1cdb95a59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74b7eb38e96d230a72cd73f402e3792b = $(`<div id="html_74b7eb38e96d230a72cd73f402e3792b" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Diputado Manuel Bustos Huerta</div>`)[0];
+                popup_079668865366750f130f8de1cdb95a59.setContent(html_74b7eb38e96d230a72cd73f402e3792b);
+            
+        
+
+        marker_4b97cf9c01f664fc6de5e95abe5091c1.bindPopup(popup_079668865366750f130f8de1cdb95a59)
+        ;
+
+        
+    
+    
+            var marker_4b0d1b8157788c5749d349094eb7cd31 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_e774964f5418399bcd298f87275aa646 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21efea19c3618f9b151b1f7741218fe6 = $(`<div id="html_21efea19c3618f9b151b1f7741218fe6" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Diputado Manuel Bustos Huerta</div>`)[0];
+                popup_e774964f5418399bcd298f87275aa646.setContent(html_21efea19c3618f9b151b1f7741218fe6);
+            
+        
+
+        marker_4b0d1b8157788c5749d349094eb7cd31.bindPopup(popup_e774964f5418399bcd298f87275aa646)
+        ;
+
+        
+    
+    
+            var marker_0db49ddf59127ceba82c028c7347a745 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_bd1f3058ac04006d2eb7e55f44b9a4a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64f76a3641a99de51f2fe393426b0626 = $(`<div id="html_64f76a3641a99de51f2fe393426b0626" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Diputado Manuel Bustos Huerta</div>`)[0];
+                popup_bd1f3058ac04006d2eb7e55f44b9a4a7.setContent(html_64f76a3641a99de51f2fe393426b0626);
+            
+        
+
+        marker_0db49ddf59127ceba82c028c7347a745.bindPopup(popup_bd1f3058ac04006d2eb7e55f44b9a4a7)
+        ;
+
+        
+    
+    
+            var marker_3d2110694d42a51709ec94630b7fe3e7 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_d233fc1e98155d7f6fb5d6cbbdc4fe4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d04da74d4079d64d52bc6e7cb7248fc = $(`<div id="html_5d04da74d4079d64d52bc6e7cb7248fc" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Diputado Manuel Bustos Huerta</div>`)[0];
+                popup_d233fc1e98155d7f6fb5d6cbbdc4fe4d.setContent(html_5d04da74d4079d64d52bc6e7cb7248fc);
+            
+        
+
+        marker_3d2110694d42a51709ec94630b7fe3e7.bindPopup(popup_d233fc1e98155d7f6fb5d6cbbdc4fe4d)
+        ;
+
+        
+    
+    
+            var marker_8ef36e6041c19796d564e19550fbd06c = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_6cc5e023882be3d6bd4723c9150e77ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0573c8474399863f7e38b969d5495185 = $(`<div id="html_0573c8474399863f7e38b969d5495185" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Diputado Manuel Bustos Huerta</div>`)[0];
+                popup_6cc5e023882be3d6bd4723c9150e77ab.setContent(html_0573c8474399863f7e38b969d5495185);
+            
+        
+
+        marker_8ef36e6041c19796d564e19550fbd06c.bindPopup(popup_6cc5e023882be3d6bd4723c9150e77ab)
+        ;
+
+        
+    
+    
+            var marker_1c897cfad19b1359e0a270b8b79a38df = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_8bc9b692b18ef1f6a6da5e76422a68ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ee03fe00760c1c871fd8b161fd4fce0 = $(`<div id="html_3ee03fe00760c1c871fd8b161fd4fce0" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Diputado Manuel Bustos Huerta</div>`)[0];
+                popup_8bc9b692b18ef1f6a6da5e76422a68ba.setContent(html_3ee03fe00760c1c871fd8b161fd4fce0);
+            
+        
+
+        marker_1c897cfad19b1359e0a270b8b79a38df.bindPopup(popup_8bc9b692b18ef1f6a6da5e76422a68ba)
+        ;
+
+        
+    
+    
+            var marker_355c59f82793bc62ff66d1b4e2c921c1 = L.marker(
+                [-33.7353555, -71.421944],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_7627f039830475f3a8ba99ea0402b80a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_656ce785b502900eb5d1057b8d843a14 = $(`<div id="html_656ce785b502900eb5d1057b8d843a14" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Cuncumén (San Antonio)</div>`)[0];
+                popup_7627f039830475f3a8ba99ea0402b80a.setContent(html_656ce785b502900eb5d1057b8d843a14);
+            
+        
+
+        marker_355c59f82793bc62ff66d1b4e2c921c1.bindPopup(popup_7627f039830475f3a8ba99ea0402b80a)
+        ;
+
+        
+    
+    
+            var marker_426de87ae29d815a6be8c4b768622e3f = L.marker(
+                [-33.5733017, -71.6001007],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_31289b7a0931ff21c63a9bd1942ca572 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42c03d2f3e3bf879648075caf556ebdc = $(`<div id="html_42c03d2f3e3bf879648075caf556ebdc" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural San Juan de San Antonio</div>`)[0];
+                popup_31289b7a0931ff21c63a9bd1942ca572.setContent(html_42c03d2f3e3bf879648075caf556ebdc);
+            
+        
+
+        marker_426de87ae29d815a6be8c4b768622e3f.bindPopup(popup_31289b7a0931ff21c63a9bd1942ca572)
+        ;
+
+        
+    
+    
+            var marker_a4740e138fc72d83ecd23e5b3f072ae5 = L.marker(
+                [-33.6313011, -71.5964534],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_06e3aa1097381c0431a95ea69eac8e53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4d761f09387c5c93595edc9f4372b6f = $(`<div id="html_b4d761f09387c5c93595edc9f4372b6f" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Lo Gallardo</div>`)[0];
+                popup_06e3aa1097381c0431a95ea69eac8e53.setContent(html_b4d761f09387c5c93595edc9f4372b6f);
+            
+        
+
+        marker_a4740e138fc72d83ecd23e5b3f072ae5.bindPopup(popup_06e3aa1097381c0431a95ea69eac8e53)
+        ;
+
+        
+    
+    
+            var marker_ade07e2d279d690f5c8bbceb82aac32d = L.marker(
+                [-33.6313011, -71.5964534],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_463e62c2f92d02a9d06dd0df4eb646d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_856ebea4b8ceffc1102f59d1fce9ea40 = $(`<div id="html_856ebea4b8ceffc1102f59d1fce9ea40" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Lo Gallardo</div>`)[0];
+                popup_463e62c2f92d02a9d06dd0df4eb646d0.setContent(html_856ebea4b8ceffc1102f59d1fce9ea40);
+            
+        
+
+        marker_ade07e2d279d690f5c8bbceb82aac32d.bindPopup(popup_463e62c2f92d02a9d06dd0df4eb646d0)
+        ;
+
+        
+    
+    
+            var marker_a1f6a3380340e6abb93d4109918be668 = L.marker(
+                [-33.6313011, -71.5964534],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_ae48c720ca2c5e7990e7561b4037e9ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c40a28ed6b8dc9d90320d1db870f60d = $(`<div id="html_9c40a28ed6b8dc9d90320d1db870f60d" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Lo Gallardo</div>`)[0];
+                popup_ae48c720ca2c5e7990e7561b4037e9ca.setContent(html_9c40a28ed6b8dc9d90320d1db870f60d);
+            
+        
+
+        marker_a1f6a3380340e6abb93d4109918be668.bindPopup(popup_ae48c720ca2c5e7990e7561b4037e9ca)
+        ;
+
+        
+    
+    
+            var marker_e0dd89c496f358d0e2c0f6321030d134 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_db81900428cb7caf1b011266e5ab2063 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_012d432e800f001beb9142882fcece3e = $(`<div id="html_012d432e800f001beb9142882fcece3e" style="width: 100.0%; height: 100.0%;">Centro Comunitario de Salud Familiar Manuel Bustos Huerta</div>`)[0];
+                popup_db81900428cb7caf1b011266e5ab2063.setContent(html_012d432e800f001beb9142882fcece3e);
+            
+        
+
+        marker_e0dd89c496f358d0e2c0f6321030d134.bindPopup(popup_db81900428cb7caf1b011266e5ab2063)
+        ;
+
+        
+    
+    
+            var marker_e9c1dde527f384e3f5253f5b25e1bc2b = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_165ea06ef980a6e7b4c4cf6b46d4cb7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ea0a5ec5270d8495ee627771196db14 = $(`<div id="html_7ea0a5ec5270d8495ee627771196db14" style="width: 100.0%; height: 100.0%;">Centro Comunitario de Salud Familiar Manuel Bustos Huerta</div>`)[0];
+                popup_165ea06ef980a6e7b4c4cf6b46d4cb7c.setContent(html_7ea0a5ec5270d8495ee627771196db14);
+            
+        
+
+        marker_e9c1dde527f384e3f5253f5b25e1bc2b.bindPopup(popup_165ea06ef980a6e7b4c4cf6b46d4cb7c)
+        ;
+
+        
+    
+    
+            var marker_38ebe21617f87a35e7a08dd1e5287603 = L.marker(
+                [-33.5482466, -71.6045745],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_139efaf81c51ec36a5af7925a6f5c3c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c84bd1784910db80c5ed07d3342591f = $(`<div id="html_2c84bd1784910db80c5ed07d3342591f" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Cartagena</div>`)[0];
+                popup_139efaf81c51ec36a5af7925a6f5c3c2.setContent(html_2c84bd1784910db80c5ed07d3342591f);
+            
+        
+
+        marker_38ebe21617f87a35e7a08dd1e5287603.bindPopup(popup_139efaf81c51ec36a5af7925a6f5c3c2)
+        ;
+
+        
+    
+    
+            var marker_d043929b9e826748b719ee2b66b8b1cb = L.marker(
+                [-33.3973584, -71.6943423],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_65367f874f6350ebed19d8365d241fa7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edf8162835e5ac35b24c2546c7ea21ce = $(`<div id="html_edf8162835e5ac35b24c2546c7ea21ce" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar El Quisco</div>`)[0];
+                popup_65367f874f6350ebed19d8365d241fa7.setContent(html_edf8162835e5ac35b24c2546c7ea21ce);
+            
+        
+
+        marker_d043929b9e826748b719ee2b66b8b1cb.bindPopup(popup_65367f874f6350ebed19d8365d241fa7)
+        ;
+
+        
+    
+    
+            var marker_c770e5521246e1b9c9cb95ce89087077 = L.marker(
+                [-33.3973584, -71.6943423],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_be8c44d99004df6b5024da1814f083d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd667d9b8bd2a6a3d960c4f6642a2af6 = $(`<div id="html_fd667d9b8bd2a6a3d960c4f6642a2af6" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar El Quisco</div>`)[0];
+                popup_be8c44d99004df6b5024da1814f083d4.setContent(html_fd667d9b8bd2a6a3d960c4f6642a2af6);
+            
+        
+
+        marker_c770e5521246e1b9c9cb95ce89087077.bindPopup(popup_be8c44d99004df6b5024da1814f083d4)
+        ;
+
+        
+    
+    
+            var marker_4c242f48ae5df7405ef77399e900c256 = L.marker(
+                [-33.4412132, -71.6829399],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_59f415f5ac5832dcd3e84a6783519827 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e680403fa4d986441c9804b6712a5820 = $(`<div id="html_e680403fa4d986441c9804b6712a5820" style="width: 100.0%; height: 100.0%;">Centro Comunitario de Salud Familiar Isla Negra</div>`)[0];
+                popup_59f415f5ac5832dcd3e84a6783519827.setContent(html_e680403fa4d986441c9804b6712a5820);
+            
+        
+
+        marker_4c242f48ae5df7405ef77399e900c256.bindPopup(popup_59f415f5ac5832dcd3e84a6783519827)
+        ;
+
+        
+    
+    
+            var marker_0ca16323fd29a80d80307c6e287d1508 = L.marker(
+                [-33.4565916, -71.6633428],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_dc1e6bc5d8116ae529bf4c341983dd9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4394388261f04bca1a0c4d0acccbd8b = $(`<div id="html_c4394388261f04bca1a0c4d0acccbd8b" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar El Tabo</div>`)[0];
+                popup_dc1e6bc5d8116ae529bf4c341983dd9e.setContent(html_c4394388261f04bca1a0c4d0acccbd8b);
+            
+        
+
+        marker_0ca16323fd29a80d80307c6e287d1508.bindPopup(popup_dc1e6bc5d8116ae529bf4c341983dd9e)
+        ;
+
+        
+    
+    
+            var marker_e92bd2c1233a959867fa7fef22949bee = L.marker(
+                [-33.4565916, -71.6633428],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_1d99b813a655c14209ed773f3513dee2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e09ab9dfc6aa1aa5f5529a00870ceb6b = $(`<div id="html_e09ab9dfc6aa1aa5f5529a00870ceb6b" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar El Tabo</div>`)[0];
+                popup_1d99b813a655c14209ed773f3513dee2.setContent(html_e09ab9dfc6aa1aa5f5529a00870ceb6b);
+            
+        
+
+        marker_e92bd2c1233a959867fa7fef22949bee.bindPopup(popup_1d99b813a655c14209ed773f3513dee2)
+        ;
+
+        
+    
+    
+            var marker_c784c831c7afac637ac2d0d83e79dba7 = L.marker(
+                [-33.4565916, -71.6633428],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_691801ed3f3252c9ae06107378354ba3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40a7f7012f3c29ab37c4c530253b91aa = $(`<div id="html_40a7f7012f3c29ab37c4c530253b91aa" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar El Tabo</div>`)[0];
+                popup_691801ed3f3252c9ae06107378354ba3.setContent(html_40a7f7012f3c29ab37c4c530253b91aa);
+            
+        
+
+        marker_c784c831c7afac637ac2d0d83e79dba7.bindPopup(popup_691801ed3f3252c9ae06107378354ba3)
+        ;
+
+        
+    
+    
+            var marker_d6517cf4a24eefebcbbc1aa1b3c0a641 = L.marker(
+                [-33.4565916, -71.6633428],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_ff469df6022717f2c17e5b0daec3a02c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c774ab910a27402249f868470d5d0c95 = $(`<div id="html_c774ab910a27402249f868470d5d0c95" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar El Tabo</div>`)[0];
+                popup_ff469df6022717f2c17e5b0daec3a02c.setContent(html_c774ab910a27402249f868470d5d0c95);
+            
+        
+
+        marker_d6517cf4a24eefebcbbc1aa1b3c0a641.bindPopup(popup_ff469df6022717f2c17e5b0daec3a02c)
+        ;
+
+        
+    
+    
+            var marker_03df2cc09241b211f8b9f1e2a1d8df5a = L.marker(
+                [-33.4565916, -71.6633428],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_5251ce1016cd73067427d4b3d23c4b8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af9ad54ee48c7501c3b7c258f429b4f4 = $(`<div id="html_af9ad54ee48c7501c3b7c258f429b4f4" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar El Tabo</div>`)[0];
+                popup_5251ce1016cd73067427d4b3d23c4b8c.setContent(html_af9ad54ee48c7501c3b7c258f429b4f4);
+            
+        
+
+        marker_03df2cc09241b211f8b9f1e2a1d8df5a.bindPopup(popup_5251ce1016cd73067427d4b3d23c4b8c)
+        ;
+
+        
+    
+    
+            var marker_b36e1f835a9da81373e919d1b350ada2 = L.marker(
+                [-33.4565916, -71.6633428],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_30b681a9be44afd4b6c310afce50c899 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8e59ca27da2942569c7e892bb739568 = $(`<div id="html_d8e59ca27da2942569c7e892bb739568" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar El Tabo</div>`)[0];
+                popup_30b681a9be44afd4b6c310afce50c899.setContent(html_d8e59ca27da2942569c7e892bb739568);
+            
+        
+
+        marker_b36e1f835a9da81373e919d1b350ada2.bindPopup(popup_30b681a9be44afd4b6c310afce50c899)
+        ;
+
+        
+    
+    
+            var marker_c1117a0efd68ad4a4d2010baa8fb4c22 = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_5128a9a461e14672768bdc4c25b34198 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce03f690335263871eb8c097f222a7ec = $(`<div id="html_ce03f690335263871eb8c097f222a7ec" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_5128a9a461e14672768bdc4c25b34198.setContent(html_ce03f690335263871eb8c097f222a7ec);
+            
+        
+
+        marker_c1117a0efd68ad4a4d2010baa8fb4c22.bindPopup(popup_5128a9a461e14672768bdc4c25b34198)
+        ;
+
+        
+    
+    
+            var marker_3f5a68d14fe7a6a6d22879e5899dd72d = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_f773ea73a95c586a812c2edf458089f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e08dde94575811a04041cc8ee1c4fae = $(`<div id="html_1e08dde94575811a04041cc8ee1c4fae" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_f773ea73a95c586a812c2edf458089f8.setContent(html_1e08dde94575811a04041cc8ee1c4fae);
+            
+        
+
+        marker_3f5a68d14fe7a6a6d22879e5899dd72d.bindPopup(popup_f773ea73a95c586a812c2edf458089f8)
+        ;
+
+        
+    
+    
+            var marker_3d0977dfcb679e840ea9b6125dff6b93 = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_9a42f83686675e7fe541e6609038401f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2b7b88e86608c47206b0cd0df395c35 = $(`<div id="html_c2b7b88e86608c47206b0cd0df395c35" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_9a42f83686675e7fe541e6609038401f.setContent(html_c2b7b88e86608c47206b0cd0df395c35);
+            
+        
+
+        marker_3d0977dfcb679e840ea9b6125dff6b93.bindPopup(popup_9a42f83686675e7fe541e6609038401f)
+        ;
+
+        
+    
+    
+            var marker_e25e9f21457633fbf84dbeb3a87ab413 = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_fcebd7da82d7244d0f1021c55838d4ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18396bd0caa3162f9aeea4b4e16b702e = $(`<div id="html_18396bd0caa3162f9aeea4b4e16b702e" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_fcebd7da82d7244d0f1021c55838d4ed.setContent(html_18396bd0caa3162f9aeea4b4e16b702e);
+            
+        
+
+        marker_e25e9f21457633fbf84dbeb3a87ab413.bindPopup(popup_fcebd7da82d7244d0f1021c55838d4ed)
+        ;
+
+        
+    
+    
+            var marker_9810efb0a659e168087aa089b07cf94e = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_a5acbf7c800feee06c932f44d69fde90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eb29b19c42bc86b05260e1b2624cf26 = $(`<div id="html_4eb29b19c42bc86b05260e1b2624cf26" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_a5acbf7c800feee06c932f44d69fde90.setContent(html_4eb29b19c42bc86b05260e1b2624cf26);
+            
+        
+
+        marker_9810efb0a659e168087aa089b07cf94e.bindPopup(popup_a5acbf7c800feee06c932f44d69fde90)
+        ;
+
+        
+    
+    
+            var marker_7c0e15608f9b4df16c67b756740b2afd = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_02ae4cc463718643d64726295f207884 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36554f28c907b0c9ae9f89634752a390 = $(`<div id="html_36554f28c907b0c9ae9f89634752a390" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_02ae4cc463718643d64726295f207884.setContent(html_36554f28c907b0c9ae9f89634752a390);
+            
+        
+
+        marker_7c0e15608f9b4df16c67b756740b2afd.bindPopup(popup_02ae4cc463718643d64726295f207884)
+        ;
+
+        
+    
+    
+            var marker_e33dabee1b18cef1fc69e13c56d673a6 = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_36d27ae81114b7ee8929dbac7876f541 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad11f1e2ca51735e3f315e5a015b13aa = $(`<div id="html_ad11f1e2ca51735e3f315e5a015b13aa" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_36d27ae81114b7ee8929dbac7876f541.setContent(html_ad11f1e2ca51735e3f315e5a015b13aa);
+            
+        
+
+        marker_e33dabee1b18cef1fc69e13c56d673a6.bindPopup(popup_36d27ae81114b7ee8929dbac7876f541)
+        ;
+
+        
+    
+    
+            var marker_25b25133bc785fcbd0376d6b3d6248b0 = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_0b02cb4a7c344d1aa36804523ee14fc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ca330ef7861d39a29e835b8a42c654d = $(`<div id="html_9ca330ef7861d39a29e835b8a42c654d" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_0b02cb4a7c344d1aa36804523ee14fc4.setContent(html_9ca330ef7861d39a29e835b8a42c654d);
+            
+        
+
+        marker_25b25133bc785fcbd0376d6b3d6248b0.bindPopup(popup_0b02cb4a7c344d1aa36804523ee14fc4)
+        ;
+
+        
+    
+    
+            var marker_7135a149100c94bab091fda11eacf43a = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_7a8faf772552df3c7c48d6626aabc77c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5d67a833c8a7ac437be7aef04cd7059 = $(`<div id="html_e5d67a833c8a7ac437be7aef04cd7059" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_7a8faf772552df3c7c48d6626aabc77c.setContent(html_e5d67a833c8a7ac437be7aef04cd7059);
+            
+        
+
+        marker_7135a149100c94bab091fda11eacf43a.bindPopup(popup_7a8faf772552df3c7c48d6626aabc77c)
+        ;
+
+        
+    
+    
+            var marker_d82a7ed0559882199fd67a11828d4e75 = L.marker(
+                [-33.4986623, -71.62616799999999],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_673cf299f06405c93aba6a8db6b75bfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d978bc969691a2d5a60d540af8568f8 = $(`<div id="html_3d978bc969691a2d5a60d540af8568f8" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural Las Cruces (El Tabo)</div>`)[0];
+                popup_673cf299f06405c93aba6a8db6b75bfb.setContent(html_3d978bc969691a2d5a60d540af8568f8);
+            
+        
+
+        marker_d82a7ed0559882199fd67a11828d4e75.bindPopup(popup_673cf299f06405c93aba6a8db6b75bfb)
+        ;
+
+        
+    
+    
+            var marker_0b86cb13a3d12e1b7464b73057e242bf = L.marker(
+                [-33.6437748, -71.6249706],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_830a4c11bab76397ce7578d4d4de1349 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea08fdf937c0167cdf883f62ea86dcaa = $(`<div id="html_ea08fdf937c0167cdf883f62ea86dcaa" style="width: 100.0%; height: 100.0%;">Centro de Salud Familiar Rocas de Santo Domingo</div>`)[0];
+                popup_830a4c11bab76397ce7578d4d4de1349.setContent(html_ea08fdf937c0167cdf883f62ea86dcaa);
+            
+        
+
+        marker_0b86cb13a3d12e1b7464b73057e242bf.bindPopup(popup_830a4c11bab76397ce7578d4d4de1349)
+        ;
+
+        
+    
+    
+            var marker_bca2725aeac6e960a9d60bc8c1ac2d46 = L.marker(
+                [-35.675147, -71.542969],
+                {
+}
+            ).addTo(marker_cluster_0212b914aa7417ab54eb82b738dadf3d);
+        
+    
+        var popup_52c8a06e3d65b78416d96da5d10c91a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e4cc1e2d2e4f16d691a90e2045034ab = $(`<div id="html_1e4cc1e2d2e4f16d691a90e2045034ab" style="width: 100.0%; height: 100.0%;">Posta de Salud Rural San Enrique</div>`)[0];
+                popup_52c8a06e3d65b78416d96da5d10c91a6.setContent(html_1e4cc1e2d2e4f16d691a90e2045034ab);
+            
+        
+
+        marker_bca2725aeac6e960a9d60bc8c1ac2d46.bindPopup(popup_52c8a06e3d65b78416d96da5d10c91a6)
+        ;
+
+        
+    
+    
+            marker_cluster_0212b914aa7417ab54eb82b738dadf3d.addTo(map_4048f66eca6f3fe19d2e1bcdd9cc00e8);
+        
+</script>
+</html>
