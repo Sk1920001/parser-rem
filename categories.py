@@ -141,6 +141,12 @@ CATEGORIES = {
         "Factor/Patología": "Trastorno de estrés post traumático",
         "Subtipo": None
     },
+    ("TRASTORNOS DE ANSIEDAD", "TRASTORNO DE ESTRÉS POST TRAUMATICO"): {
+        "Categoria General": "Diagnósticos",
+            "Subcategoria": "Trastornos de ansiedad",
+            "Factor/Patología": "Trastorno de estrés post traumático",
+            "Subtipo": None    
+    },
     ("TRASTORNOS DE ANSIEDAD", "TRASTORNO DE PANICO CON AGOROFOBIA"): {
         "Categoria General": "Diagnósticos",
         "Subcategoria": "Trastornos de ansiedad",
@@ -189,6 +195,24 @@ CATEGORIES = {
         "Factor/Patología": "Demencia",
         "Subtipo": "Avanzado"
     },
+    ('DEMENCIAS (INCLUYE ALZHEIMER))', 'LEVE'): {
+        "Categoria General": "Diagnósticos",
+        "Subcategoria": "Demencias (incluye Alzheimer)",
+        "Factor/Patología": "Demencia",
+        "Subtipo": "Leve"
+    },
+    ("DEMENCIAS (INCLUYE ALZHEIMER))", "MODERADO"): {
+        "Categoria General": "Diagnósticos",
+        "Subcategoria": "Demencias (incluye Alzheimer)",
+        "Factor/Patología": "Demencia",
+        "Subtipo": "Moderado"
+    },
+    ("DEMENCIAS (INCLUYE ALZHEIMER))", "AVANZADO"): {
+        "Categoria General": "Diagnósticos",
+        "Subcategoria": "Demencias (incluye Alzheimer)",
+        "Factor/Patología": "Demencia",
+        "Subtipo": "Avanzado"
+    },
     ("ESQUIZOFRENIA", "ESQUIZOFRENIA"): {
         "Categoria General": "Diagnósticos",
         "Subcategoria": "Esquizofrenia",
@@ -232,4 +256,3 @@ CATEGORIES = {
         "Subtipo": None
     },
 }
-
